@@ -1,0 +1,545 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(0, 0, 19);
+  /* background-color: cornflowerblue; */
+  justify-content: center;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* .wrap{
+  margin-bottom: 20px;
+} */
+
+.wrapper{
+  justify-content: center;
+  /* background-color:rgb(0, 0, 19)); */
+  width: 50%;
+  position: relative;
+  left: 350px;
+  border-radius: 5px;
+}
+
+
+.header1{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  margin: 20px;
+  
+}
+
+
+.header1 h6{
+  font-weight: lighter;
+}
+
+
+.wrapper2{
+  justify-content: center;
+  background-color:rgb(2, 5, 37);
+  width: 50%;
+  position: relative;
+  left: 350px;
+  border-radius: 5px;
+  /* margin-bottom: 80px; */
+}
+
+.searchBar{
+  width: 50%;
+  position: relative;
+  left: 340px;
+   display: flex;
+   justify-content: space-between;
+   margin: 10px;
+   color: #fff;
+   border: 1px solid black;
+   border: none;
+   border-radius: 6px;
+   background-color:rgb(7, 7, 63);
+   padding: 10px 3px;
+   text-align: center;
+   
+   
+}
+
+.searchBar h4{
+  margin: 10px;
+  margin-left: 20px;
+ } 
+ 
+
+.searchBar span{
+ margin-right: 15px;
+ background-color: rgb(8, 84, 224);
+ padding: 10px 25px;
+ border-radius: 5px;
+
+}
+
+.profile{
+  display: flex;
+  margin: 24px;
+  line-height: 40px;
+
+}
+
+.cat{
+  border-radius: 50%;
+  width:40%;
+  padding: 15px 40px;
+}
+
+.description{
+  padding: 50px 0px;
+}
+
+.description h3{
+  color: #fff;
+  font-size: 25px;
+}
+
+.description .kk{
+  color: rgb(5, 18, 199);
+  font-size: 20px;
+  /* font-weight: ; */
+}
+
+.description .bb{
+  color: #fff;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.About{
+  width: 80%;
+  margin: 24px;
+  padding: 0px 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.followership{
+  display: flex;
+  /* width: 10%; */
+  background-color: rgb(2, 2, 24);
+  /* background-color: olivedrab; */
+  color: #fff;
+  margin: 0px 150px 0px 60px;
+  border-radius: 5px;
+  /* margin-right: 50px; */
+  /* grid-row: 190px; */
+
+ 
+
+  /* margin-bottom: 17px; */
+}
+
+.followership-content{
+  justify-content: space-between;
+  width: 30%;
+  padding: 10px 0px;
+  margin: 19px;
+  font-size: 26px;
+}
+.foot{
+display: flex;
+margin: 15px;
+}
+
+.foot1{
+  display: block;
+  /* width: 30%; */
+  justify-content: space-between;
+  line-height: 20px;
+  color: #fff;
+  margin: 20px 65px;
+  font-size: 20px;
+  /* margin-bottom: 50px; */
+}
+
+.foot2{
+  display: block;
+  /* width: 30%; */
+  justify-content: space-between;
+  line-height: 20px;
+  color: #fff;
+  margin: 20px 65px;
+  font-size: 20px;
+  /* margin-bottom: 50px; */ 
+}
+
+/* .foot1{
+  /* display: block; */
+  /* margin: 0px 25px;
+  margin-bottom: 20px; */
+  /* justify-content: space-evenly; */
+  /* width: 4px; */
+/* } */ 
+
+/* .foot2{
+  /* display: block; */
+  /* margin-bottom: 20px; */
+  /* justify-content: space-between; */
+  /* width: 4px; */
+  /* position: relative; */
+  /* left: 70px; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+ 
+    .wrap{
+      position: relative;
+      right: 180px;
+      /* justify-content: center; */
+    }
+  .wrapper{
+   width: 40%; 
+   position: relative;
+  left:  360px;
+
+  }
+
+  .header1{
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+
+  .searchBar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 3px 3px;
+    text-align: center;
+    
+ }
+
+ .searchBar h4{
+  margin: 9px;
+  margin-right: 17px;
+  font-size: 14px;
+ } 
+ 
+
+.searchBar span{
+  margin: 13px;
+ margin-right: 15px;
+ background-color: rgb(8, 84, 224);
+ padding: 10px 20px;
+ border-radius: 5px;
+
+}
+
+.profile{
+  display: flex;
+  margin: 20px;
+  line-height: 18px;
+
+}
+
+.cat{
+  /* border-radius: 50%; */
+  width:50%;
+  padding: 0px 30px;
+  margin-bottom: 10px;
+}
+
+.description{
+  position: relative;
+  left: 20px;
+  bottom: 15px;
+}
+ .description h3{
+font-size: 22px;
+ }
+
+ .About{
+  width: 90%;
+   margin: 20px;
+   font-size: 17px;
+   text-align:center ;
+   font-size: 15px;
+  /* padding: 0px 10px; */
+  /* text-align: center */
+}
+
+.followership{
+  display: flex;
+  
+  margin: 0px 18px;
+  border-radius: 5px;
+}
+
+.followership-content{
+  justify-content: space-between;
+  width: 60%;
+  padding: 10px 0px;
+  margin: 10px 23px;
+  font-size: 22px;
+  /* grid-row: 20px; */
+}
+.foot{
+  display: flex;
+  margin: 10px;
+  }
+  
+  .foot1{
+    display: block;
+    /* width: 30%; */
+    /* justify-content: space-between; */
+    line-height: 40px;
+    /* color: #fff; */
+    margin: 20px 30px;
+    font-size: 17px;
+    /* margin-bottom: 50px; */
+  }
+  
+  .foot2{
+    display: block;
+    /* width: 30%; */
+    /* justify-content: space-between; */
+    line-height: 40px;
+    /* color: #fff; */
+    margin: 20px 30px;
+    font-size: 17px;
+    /* margin-bottom: 50px; */ 
+  }
+
+}
+
+
+
+@media screen and (max-width:600px) {
+ 
+ .wrap{
+   position: relative;
+   right: 200px;
+ }
+  .wrapper{
+   width: 50%; 
+   position: relative;
+   left:  330px;
+   /* margin: 15px; */
+   /* display: block; */
+  }
+  .header1{
+    display: block;
+  
+  }
+
+
+  .searchBar{
+    display: inline-flex;
+    
+    
+ }
+
+
+.searchBar span{
+  margin: 10px;
+ margin-right: 15px;
+ padding: 8px 20px;
+ /* background-color: rgb(8, 84, 224); */
+ /* padding:4px 10px; */
+ border-radius: 5px;
+ /* text-align: center; */
+
+}
+
+.profile{
+  display: block;
+  margin: 20px;
+  line-height: 17px;
+  
+
+}
+
+.cat{
+  width:70%;
+  padding: 0px 23px;
+  margin-bottom: 0px;
+}
+ .description h3{
+font-size: 18px;
+ }
+
+ .About{
+  width: 95%;
+   margin: 17px;
+   font-size: 10px 0px;
+   text-align:left;
+   font-size: 15px;
+  /* padding: 0px 10px; */
+  /* text-align: center */
+}
+
+.followership{
+  display: block;
+  /* width: 10%; */
+  background-color: rgb(2, 2, 24);
+  /* background-color: olivedrab; */
+  color: #fff;
+  /* margin: 0px 190px 0px 60px; */
+  margin: 10px ;
+  border-radius: 5px;
+  
+}
+
+.followership-content{
+  justify-content: space-between;
+  width: 90%;
+  padding: 8px 0px;
+  margin: 10px  14px;
+  font-size: 20px;
+  /* grid-row: 20px; */
+}
+.foot{
+  display: block;
+  margin: 15px;
+  }
+  
+  .foot1{
+    display: block;
+    /* width: 30%; */
+    /* justify-content: space-between; */
+    line-height: 40px;
+    /* color: #fff; */
+    margin: 10px 15px;
+    font-size: 17px;
+    padding: 20px 0px;
+    /* margin-bottom: 50px; */
+  }
+  
+  .foot2{
+    display: block;
+    /* width: 30%; */
+    /* justify-content: space-between; */
+    line-height: 40px;
+    /* color: #fff; */
+    margin: 20px 15px;
+    padding: -3px 0px;
+    font-size: 17px;
+    /* margin-bottom: 50px; */ 
+  }
+
+
+}
+
+@media screen and (max-width:400px) {
+  .wrap{
+    position: relative;
+    right: 250px;
+  }
+  .wrapper{
+   width: 100%;
+   /* margin-bottom: 30px; */
+   /* margin-left: 0px;
+   margin-right: 0px; */
+   position: relative;
+   left:  250px;
+  }
+
+  .header1{
+    display: block;
+    text-align: center;
+   
+  
+  }
+
+  .header1 h6{
+    font-weight: bold;
+  
+  }
+
+  .searchBar{
+    display: block;
+    
+    
+ }
+
+.searchBar span{
+ /* margin-right: 15px; */
+ background-color: rgb(8, 84, 224);
+ padding:0px 10px;
+ border-radius: 5px;
+
+}
+
+.About{
+  width: 100%;
+   margin: 10px;
+   font-size: 6px 0px;
+   text-align:left;
+   font-size: 17px;
+  /* padding: 0px 10px; */
+  /* text-align: center */
+}
+
+.followership{
+  display: block;
+  /* width: 10%; */
+  background-color:#fff;
+ 
+  /* background-color: olivedrab; */
+  color: #fff;
+  /* margin: 0px 190px 0px 60px; */
+  margin: 10px ;
+  border-radius: 5px;
+  
+}
+
+.followership-content{
+  width: 100%;
+  height: 50px;
+  color: rgb(2, 2, 24);
+  padding: 8px 0px;
+  margin: 10px  14px;
+  font-size: 23px;
+  font-weight: bold;
+}
+.foot{
+  display: block;
+  margin: 15px;
+  }
+  
+  .foot1{
+    display: block;
+    line-height: 20px;
+    margin: 10px 0px;
+    font-size: 15px;
+    padding: 10px 0px;
+    
+  }
+  
+  .foot2{
+    display: block;
+    
+    line-height: 20px;
+    
+    margin: 10px 0px;
+    padding:-5px 0px;
+    font-size: 15px;
+    
+  }
+
+}
+
